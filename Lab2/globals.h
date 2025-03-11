@@ -1,14 +1,14 @@
 #pragma once
 
-#include "NumberList.h"
+#include "Student.h"
 
-int namecomp(NumberList a, NumberList b);
+int namecomp(Student a, Student b);
 
-int mathcomp(NumberList a, NumberList b);
+int mathcomp(Student a, Student b);
 
-int englishcomp(NumberList a, NumberList b);
+int englishcomp(Student a, Student b);
 
-int historycomp(NumberList a, NumberList b);
+int historycomp(Student a, Student b);
 
-int mediecomp(NumberList a, NumberList b);
+int mediecomp(Student a, Student b);
 

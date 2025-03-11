@@ -2,11 +2,12 @@
 #include "NumberList.h"
 #include "globals.h"
 #include<iomanip>
+#include "Student.h"
 using namespace std;
 
 int main()
 {
-	NumberList a, b, c;
+	Student a, b, c;
 
 	a.setname("Marius");
 	b.setname("David");
